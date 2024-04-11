@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p id="resultado"></p>  
+    <script>
+        let x1 = parseFloat(prompt("numero"));
+        let y1 = parseFloat(prompt("numero"));
+        let x2 = parseFloat(prompt("numero"));
+        let y2 = parseFloat(prompt("numero"));
+
+        let distancia = Math.sqrt((x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        document.getElementById('resultado').innerHTML = "La distancia entre los dos puntos es: " + distancia;
+    </script>
+</body>
+</html>

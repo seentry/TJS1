@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p id="resultado"></p>  
+    <script>
+        const PI = 3.1416;
+        let radio = parseInt(prompt("Escribe el radio"));
+        
+        let  area = (PI * radio) * 2;
+
+        window.alert("area calculada");
+        document.write("El area es: " + area);
+
+        document.getElementById('resultado').innerHTML = "El área de la circunferencia es: " + area;
+    </script>
+</body>
+</html>
